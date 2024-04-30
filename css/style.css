@@ -1,6 +1,6 @@
-@import "./_reset.css";
-@import "./_preview.css";
-@import "./_dropDawn.css";
+@import "./reset.css";
+@import "./preview.css";
+@import "./dropDawn.css";
 
 *{
   font-family: "Nunito", sans-serif;
