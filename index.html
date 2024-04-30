@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ivanna</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="title">Product List</h3>
+        <ul class="product-container">
+            <!-- <li class="product product--active" data-name="p-1">
+                <img class="product_img" src="./img/img-1.jpg" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="product" data-name="p-2">
+                <img class="product_img" src="./img/img-2.jpg" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="product" data-name="p-3">
+                <img class="product_img" src="./img/img-3.jpg" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="product" data-name="p-4">
+                <img class="product_img" src="./img/img-4.jpg" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="product" data-name="p-5">
+                <img class="product_img" src="./img/img-5.jpg" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="product" data-name="p-6">
+                <img class="product_img" src="./img/img-6.jpg" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="product" data-name="p-7">
+                <img class="product_img" src="./img/img-7.jpg" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="product" data-name="p-8">
+                <img class="product_img" src="./img/img-8.jpg" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="product" data-name="p-9">
+                <img class="product_img" src="./img/img-9.jpg" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="product" data-name="p-10">
+                <img class="product_img" src="./img/img-10.png" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="product" data-name="p-11">
+                <img class="product_img" src="./img/img-11.jpg" alt="1">
+                <h3 class="product-name">лаваш</h3>
+                <ul class="product-info_list">
+                    <li class="product-info_item">
+                        <span class="product-info_name">morkva</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+
+                        
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">капуста</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">буряк</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">молоко</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+                    <li class="product-info_item">
+                        <span class="product-info_name">творог</span>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                        </label>
+                        <label class="product-info_label" for="">
+                            <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                        </label>
+                    </li>
+
+                </ul>
+            </li> -->
+        </ul>
+
+    </div>
+    <!-- preview    -->
+    <ul class="product-preview">
+        <!-- <li class="preview  active" data-target="p-1">
+            <i class="fas fa-times"></i>
+            <img class="preview_img" src="./img/img-1.jpg" alt="preview">
+            <h3>лаваш</h3>
+            <p class="preview_coocing">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ab laboriosam recusandae exercitationem doloribus, eum ut quam quisquam officia modi.</p>
+            <ul class="product-info_list">
+                <li class="product-info_item">
+                    <span class="product-info_name">morkva</span>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                    </label>
+
+                    
+                </li>
+                <li class="product-info_item">
+                    <span class="product-info_name">капуста</span>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                    </label>
+                </li>
+                <li class="product-info_item">
+                    <span class="product-info_name">буряк</span>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                    </label>
+                </li>
+                <li class="product-info_item">
+                    <span class="product-info_name">молоко</span>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                    </label>
+                </li>
+                <li class="product-info_item">
+                    <span class="product-info_name">творог</span>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                    </label>
+                </li>
+
+            </ul>
+            <div class="product_btn">
+                <a class="btn_add" href="">add</a>
+                <a class="btn_edit" href="">edit</a>
+            </div>
+        </li>
+        <li class="preview" data-target="p-2">
+            <i class="fas fa-times"></i>
+            <img src="./img/img-2.jpg" alt="preview">
+            <h3>лаваш</h3>
+            <p class="preview_coocing">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ab laboriosam recusandae exercitationem doloribus, eum ut quam quisquam officia modi.</p>
+            <ul class="product-info_list">
+                <li class="product-info_item">
+                    <span class="product-info_name">morkva</span>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                    </label>
+
+                    
+                </li>
+                <li class="product-info_item">
+                    <span class="product-info_name">капуста</span>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_mg" type="text"value="10">mg
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                    </label>
+                </li>
+                <li class="product-info_item">
+                    <span class="product-info_name">буряк</span>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_mg" type="text"value="55">mg
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_kkain" type="text"value="870">100 kkal
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_total" type="text"value="200">total kkal
+                    </label>
+                </li>
+                <li class="product-info_item">
+                    <span class="product-info_name">молоко</span>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_mg" type="text"value="40">mg
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                    </label>
+                </li>
+                <li class="product-info_item">
+                    <span class="product-info_name">творог</span>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_mg" type="text"value="100">mg
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_kkain" type="text"value="200">100 kkal
+                    </label>
+                    <label class="product-info_label" for="">
+                        <input class="product-info_input" data-input="defualt_total" type="text"value="100">total kkal
+                    </label>
+                </li>
+
+            </ul>
+            <div class="buttons">
+                <a href="">add</a>
+                <a href="edit"></a>
+            </div>
+        </li> -->
+    </ul>
+  
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,327 @@
+{
+  "2b0f36b8-ee91-451d-a824-46c2903c6424":  {
+        "id":"2b0f36b8-ee91-451d-a824-46c2903c6424",
+        "nameDishes":"лаваш",
+        "subTitle":null,
+        "daydefault":"понеділок",
+        "mealDefault":"сніданок",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"0a21a274-698e-4c04-b5ad-778ce68589cd",
+        "imgUrl":"",
+        "igradients":{
+            "лаваш": "60",
+            "творог 5%": "80",
+            "яблуко": "100",
+            "ізюм": "15",
+            "кориця": null,
+            "цукрозамінник": null,
+            "кава": null,
+            "вершки 10%": "10"
+        },
+        "Cooking":"Завернути начинку в лаваш і запекти або обжарити з 2х сторін на маленькому вогні",
+        "totalKkal":null
+
+    },
+    "a56e65c7-9a41-4afa-a34c-bd2ce38f0a05":  {
+        "id":"a56e65c7-9a41-4afa-a34c-bd2ce38f0a05",
+        "nameDishes":"яйцо",
+        "subTitle":"2 варених яйця",
+        "daydefault":"понеділок",
+        "mealDefault":"перекус",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"0a21a274-698e-4c04-b5ad-778ce68589cd",
+        "imgUrl":"",
+        "igradients":{
+            "сир": "30",
+            "горіхи":"15",
+            "овочі":"120"
+        },
+        "Cooking":null,
+        "totalKkal":null
+    },
+    "4a924e9e-ac19-46c1-b51f-708b6f89c67f":  {
+        "id":"4a924e9e-ac19-46c1-b51f-708b6f89c67f",
+        "nameDishes":"Рис",
+        "subTitle":"сухого",
+        "daydefault":"понеділок",
+        "mealDefault":"обід",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"0a21a274-698e-4c04-b5ad-778ce68589cd",
+        "imgUrl":"",
+        "igradients":{
+            "тунець консерва": "70",
+            "Рис ": "40",
+            "авокадо ": "40",
+            "огірки ": "100",
+            "чорний шоколад": "15"
+        },
+        "Cooking":"",
+        "totalKkal":null
+    },
+    "66082e3a-5c2e-45f1-9e4c-f7e66051ba22":  {
+        "id":"66082e3a-5c2e-45f1-9e4c-f7e66051ba22",
+        "nameDishes":"Риба",
+        "subTitle":"лосось /форель/скумбрія /карп запечений/гриль (готового)",
+        "daydefault":"понеділок",
+        "mealDefault":"вечеря",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"0a21a274-698e-4c04-b5ad-778ce68589cd",
+        "imgUrl":"",
+        "igradients":{
+            "Риба": "130",
+            "овочі ": "200"
+        },
+        "Cooking":"",
+        "totalKkal":null
+    },
+    "0ac3f5d8-1cfa-47bb-8d03-bb0d1c8fa2c6":  {
+        "id":"0ac3f5d8-1cfa-47bb-8d03-bb0d1c8fa2c6",
+        "nameDishes":" Лаваш",
+        "subTitle":null,
+        "daydefault":"вівторок",
+        "mealDefault":"сніданок",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"56cfbd26-f018-44a8-953e-6749e0c71d02",
+        "imgUrl":"",
+        "igradients":{
+            "лаваш": "60",
+            "банан": "60",
+            "сир твердий": "40",
+            "чорний шоколад": "15",
+            "кава": null,
+            "вершки": "10"
+        },
+        "Cooking":"Завернути все в лаваш, запікати/жарити до готовності (щоб сир розплавився)",
+        "totalKkal":null
+    },
+
+    "d4d38089-5ed6-424c-89df-77e7e9b49967":  {
+        "id":"d4d38089-5ed6-424c-89df-77e7e9b49967",
+        "nameDishes":"Хлібці",
+        "subTitle":null,
+        "daydefault":"вівторок",
+        "mealDefault":"перекус",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"56cfbd26-f018-44a8-953e-6749e0c71d02",
+        "imgUrl":"",
+        "igradients":{
+            "Хлібці": "20",
+            "м’який сир": "30",
+            "лосось с/с": "40",
+            "авокадо": "40"
+        },
+        "Cooking":"",
+        "totalKkal":null
+    },
+    "fad73a39-d68e-429a-afbe-bcad815c404b":  {
+        "id":"fad73a39-d68e-429a-afbe-bcad815c404b",
+        "nameDishes":"Рис",
+        "subTitle":"(сухого)",
+        "daydefault":"вівторок",
+        "mealDefault":"обід",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"56cfbd26-f018-44a8-953e-6749e0c71d02",
+        "imgUrl":"",
+        "igradients":{
+            "Рис": "40",
+            "риба": "100",
+            "овочі і зелень": "120"
+        },
+        "Cooking":"риба лосось /форель/скумбрія /карп запечений/гриль (готового) ",
+        "totalKkal":null
+    },
+
+    "534c3b04-12f3-48c6-a892-4cdeeb58cf99":  {
+        "id":"534c3b04-12f3-48c6-a892-4cdeeb58cf99",
+        "nameDishes":"Відбивні",
+        "subTitle":"1 порцію на сьогодні, але готуємо на 2 порцію",
+        "daydefault":"вівторок",
+        "mealDefault":"вечеря",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"56cfbd26-f018-44a8-953e-6749e0c71d02",
+        "imgUrl":"",
+        "igradients":{
+            "курка/індичка філе": "300",
+            "рис / мука": "30",
+            "яйці (1 яйце+ 1 білок)": "1",
+            "вершкове масло": "10",
+            "овочевий салат": "170",
+            "оливкове масло": "10"
+        },
+        "Cooking":"приправити, відбити. Обваляти в рис.муці. Жарити на кокос/вершковому маслі",
+        "totalKkal":null
+    },
+    "de8eb2d7-49d5-4208-9269-14569f1df02d":  {
+        "id":"de8eb2d7-49d5-4208-9269-14569f1df02d",
+        "nameDishes":"Оладки",
+        "subTitle":"",
+        "daydefault":"середа",
+        "mealDefault":"сніданок",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"819c6549-73d3-4968-90dc-77d937b5d436",
+        "imgUrl":"",
+        "igradients":{
+            "рисова мука": "50",
+            "яйце": "1",
+            "вершки 10%": "50",
+            "ванілін, розпушувач, цукрозамінник": null,
+            "шоколаду": "15",
+            "кокосове масло": "5",
+            "кава": null,
+            "вершки": "10"
+        },
+        "Cooking":"В середину кожної оладки додати по шматочку чорного шоколаду. Жарити на кокос.маслі",
+        "totalKkal":null
+    },
+    "645b6f29-883b-4935-8bba-6f0cbc417df0":  {
+        "id":"645b6f29-883b-4935-8bba-6f0cbc417df0",
+        "nameDishes":"Хлібці",
+        "subTitle":"",
+        "daydefault":"середа",
+        "mealDefault":"перекус",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"819c6549-73d3-4968-90dc-77d937b5d436",
+        "imgUrl":"",
+        "igradients":{
+            "Хлібці": "20",
+            "м’який сир": "30",
+            "лосось с/с": "40",
+            "авокадо": "40"
+        },
+        "Cooking":"",
+        "totalKkal":null
+    },
+    "57ea538d-d888-4961-b3e0-41cbcb641462":  {
+        "id":"57ea538d-d888-4961-b3e0-41cbcb641462",
+        "nameDishes":"Гречка",
+        "subTitle":"(сухої) + відбивна 1порція",
+        "daydefault":"середа",
+        "mealDefault":"обід",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"819c6549-73d3-4968-90dc-77d937b5d436",
+        "imgUrl":"",
+        "igradients":{
+            "Гречка": "40",
+            "овочі": "120"
+        },
+        "Cooking":"",
+        "totalKkal":null
+    },
+    "e71496e3-8b57-478c-a904-2facea087dc1":  {
+        "id":"e71496e3-8b57-478c-a904-2facea087dc1",
+        "nameDishes":"Салат",
+        "subTitle":"(овочі і зелень + тунець в с/с)",
+        "daydefault":"середа",
+        "mealDefault":"вечеря",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"819c6549-73d3-4968-90dc-77d937b5d436",
+        "imgUrl":"",
+        "igradients":{
+            "Салат ": "300",
+            "тунець в с/с": "60",
+            "авокадо":"30",
+            "моцарела ":"30",
+            "насіння конжуту":"15",
+            "оливкова олія":"15",
+            "лимонний сік": null,
+            "спеції за смаком": null
+        },
+        "Cooking":"насіння конжуту попередньо обжарити на сухій сковорідці ",
+        "totalKkal":null
+    },
+    "4e60a94b-8bc1-413b-b186-51151b14fa39":  {
+        "id":"4e60a94b-8bc1-413b-b186-51151b14fa39",
+        "nameDishes":"Творог",
+        "subTitle":"",
+        "daydefault":"четвер",
+        "mealDefault":"сніданок",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"6469dbae-192f-44ed-9516-21fa8b70ce97",
+        "imgUrl":"",
+        "igradients":{
+            "Творог 5%": "120",
+            "банан": "60",
+            "горіхи": "15",
+            "чорний шоколад": "15",
+            "кава": null,
+            "вершки": "10"
+        },
+        "Cooking":"",
+        "totalKkal":null
+    },
+
+    "092054d8-4a78-4c67-a420-37bdcbe17b50":  {
+        "id":"092054d8-4a78-4c67-a420-37bdcbe17b50",
+        "nameDishes":"Хлібці",
+        "subTitle":"",
+        "daydefault":"четвер",
+        "mealDefault":"перекус",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"6469dbae-192f-44ed-9516-21fa8b70ce97",
+        "imgUrl":"",
+        "igradients":{
+            "Хлібці": "20",
+            "м’який сир": "30",
+            "авокадо": "40",
+            "моцарела": "50",
+            "ківі": "70"
+        },
+        "Cooking":"",
+        "totalKkal":null
+    },
+    
+    "4e39d4ab-aabe-435c-950b-e46c6842b053":  {
+        "id":"4e39d4ab-aabe-435c-950b-e46c6842b053",
+        "nameDishes":"Гречка",
+        "subTitle":"(сухої)",
+        "daydefault":"четвер",
+        "mealDefault":"",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"6469dbae-192f-44ed-9516-21fa8b70ce97",
+        "imgUrl":"",
+        "igradients":{
+            "Гречка (сухої)": "40",
+            "котлети": "1 шт",
+            "фарш з філе":"300",
+            "цибуля":"",
+            "часник":"",
+            "приправи ":"",
+            "яйце ":"1 шт",
+            "муки/вівсянки":"",
+            "кокос/вершковому маслі ":"10",
+            "овочі":"120"
+        },
+        "Cooking":"все перемішати, жарити на кокос/вершковому маслі ",
+        "totalKkal":null
+    },
+    "4e39d4ab-aabe-435c-950b-e46c6842b033":  {
+        "id":"4e39d4ab-aabe-435c-950b-e46c6842b033",
+        "nameDishes":"gggacav",
+        "subTitle":"",
+        "mealDefault":"",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"6469dbae-192f-44ed-9516-21fa8b70ce97",
+        "imgUrl":"",
+        "igradients":{
+            "": "",
+            "": ""
+        },
+        "Cooking":"",
+        "totalKkal":null
+    },
+    "34e39d4ab-aabe-435c-950b-e46c6842b033":  {
+        "id":"34e39d4ab-aabe-435c-950b-e46c6842b033",
+        "nameDishes":"ggghhdss",
+        "subTitle":"dsbvdfsbdfs",
+        "mealDefault":"",
+        "id_progream_week":"93709b65-2306-47bb-b5fc-6829821a86ad",
+        "id_progream_day":"",
+        "imgUrl":"",
+        "igradients":{
+            "": "",
+            "": ""
+        },
+        "Cooking":"",
+        "totalKkal":null
+    }
+}
